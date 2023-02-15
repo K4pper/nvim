@@ -1,0 +1,13 @@
+
+{
+  "notification.statusLineProgress": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "rust",
+    "go",
+    "json",
+    "yaml",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact"
+  ]
+}
