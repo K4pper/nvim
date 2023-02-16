@@ -25,7 +25,7 @@ let &t_ZR="\e[23m"
 call plug#begin()
     Plug 'vim-airline/vim-airline'
     Plug 'ryanoasis/vim-devicons'
-    Plug 'morhetz/gruvbox'
+    Plug 'ful1e5/onedark.nvim'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'sheerun/vim-polyglot'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -38,11 +38,11 @@ call plug#begin()
 call plug#end()
 
 "set colorscheme
-colorscheme gruvbox
+colorscheme onedark
 "Show hidden files in NerdTree
 let NERDTreeShowHidden=1
 "Set colorscheme and other parameters for status bar
-let g:airline_theme='gruvbox'
+let g:airline_theme='onedark'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:tex_conceal = ''
