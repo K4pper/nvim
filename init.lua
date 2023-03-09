@@ -3,6 +3,8 @@ local modules = {
   "user.options",
   "user.plugins",
   "user.theme",
+  "user.treesitter",
+  "user.coc",
 }
 
 -- Refresh module cache
