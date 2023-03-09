@@ -5,6 +5,8 @@ local modules = {
   "user.theme",
   "user.treesitter",
   "user.coc",
+  "user.neo-tree",
+  "user.keymap",
 }
 
 -- Refresh module cache
