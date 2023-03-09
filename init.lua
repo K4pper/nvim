@@ -7,6 +7,7 @@ local modules = {
   "user.coc",
   "user.neo-tree",
   "user.keymap",
+  "user.toggleterm",
 }
 
 -- Refresh module cache

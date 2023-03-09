@@ -60,4 +60,6 @@ return packer.startup(function(use)
                "MunifTanjim/nui.nvim",
                }
             }
+
+	use { "akinsho/toggleterm.nvim", tag = "2.3.0" }
 end)
