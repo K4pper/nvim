@@ -11,3 +11,4 @@ vim.opt.undofile = true                         -- enable persistent undo
 vim.opt.cursorline = true                       -- highlight the current line
 vim.opt.number = true                           -- set numbered lines
 vim.opt.relativenumber = true			-- set relative numbered lines
+vim.opt.wildmenu = true 			-- enables wildmenu

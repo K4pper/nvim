@@ -62,4 +62,6 @@ return packer.startup(function(use)
             }
 
 	use { "akinsho/toggleterm.nvim", tag = "2.3.0" }
+
+	use "lukas-reineke/indent-blankline.nvim"
 end)

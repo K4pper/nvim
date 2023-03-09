@@ -8,6 +8,7 @@ local modules = {
   "user.neo-tree",
   "user.keymap",
   "user.toggleterm",
+  "user.indentline",
 }
 
 -- Refresh module cache
